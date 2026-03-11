@@ -1,0 +1,135 @@
+# Title Segmentation Statistics 
+# 
+# generating_program mri_segstats
+# cvs_version 7.3.2
+# cmdline mri_segstats --seed 1234 --seg mri/wmparc.mgz --sum stats/wmparc.stats --pv mri/norm.mgz --excludeid 0 --brainmask mri/brainmask.mgz --in mri/norm.mgz --in-intensity-name norm --in-intensity-units MR --subject sub-v2s12x28883_ses-1 --surf-wm-vol --ctab /opt/freesurfer/WMParcStatsLUT.txt --etiv 
+# sysname  Linux
+# hostname dna016
+# machine  x86_64
+# user     oesteban
+# anatomy_type volume
+# 
+# SUBJECTS_DIR /out/sourcedata/freesurfer
+# subjectname sub-v2s12x28883_ses-1
+# BrainVolStatsFixed-NotNeeded because voxelvolume=1mm3
+# Measure VentricleChoroidVol, VentricleChoroidVol, Volume of ventricles and choroid plexus, 7234.000000, mm^3
+# Measure lhCerebralWhiteMatter, lhCerebralWhiteMatterVol, Left hemisphere cerebral white matter volume, 199257.000000, mm^3
+# Measure rhCerebralWhiteMatter, rhCerebralWhiteMatterVol, Right hemisphere cerebral white matter volume, 202572.000000, mm^3
+# Measure CerebralWhiteMatter, CerebralWhiteMatterVol, Total cerebral white matter volume, 401829.000000, mm^3
+# Measure Mask, MaskVol, Mask Volume, 1401765.000000, mm^3
+# Measure EstimatedTotalIntraCranialVol, eTIV, Estimated Total Intracranial Volume, 1425402.252262, mm^3
+# SegVolFile mri/wmparc.mgz 
+# SegVolFileTimeStamp  2026/03/11 03:49:11 
+# ColorTable /opt/freesurfer/WMParcStatsLUT.txt 
+# ColorTableTimeStamp 2022/08/04 08:13:19 
+# InVolFile  mri/norm.mgz 
+# InVolFileTimeStamp  2026/03/11 01:15:45 
+# InVolFrame 0 
+# PVVolFile  mri/norm.mgz 
+# PVVolFileTimeStamp  2026/03/11 01:15:45 
+# ExcludeSegId 0 
+# Only reporting non-empty segmentations
+# VoxelVolume_mm3 1 
+# TableCol  1 ColHeader Index 
+# TableCol  1 FieldName Index 
+# TableCol  1 Units     NA 
+# TableCol  2 ColHeader SegId 
+# TableCol  2 FieldName Segmentation Id
+# TableCol  2 Units     NA
+# TableCol  3 ColHeader NVoxels 
+# TableCol  3 FieldName Number of Voxels
+# TableCol  3 Units     unitless
+# TableCol  4 ColHeader Volume_mm3
+# TableCol  4 FieldName Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader StructName
+# TableCol  5 FieldName Structure Name
+# TableCol  5 Units     NA
+# TableCol  6 ColHeader normMean 
+# TableCol  6 FieldName Intensity normMean
+# TableCol  6 Units     MR
+# TableCol  7 ColHeader normStdDev
+# TableCol  7 FieldName Itensity normStdDev
+# TableCol  7 Units     MR
+# TableCol  8 ColHeader normMin
+# TableCol  8 FieldName Intensity normMin
+# TableCol  8 Units     MR
+# TableCol  9 ColHeader normMax
+# TableCol  9 FieldName Intensity normMax
+# TableCol  9 Units     MR
+# TableCol 10 ColHeader normRange
+# TableCol 10 FieldName Intensity normRange
+# TableCol 10 Units     MR
+# NRows 70 
+# NTableCols 10 
+# ColHeaders  Index SegId NVoxels Volume_mm3 StructName normMean normStdDev normMin normMax normRange  
+  1 3001      2565     2573.8  wm-lh-bankssts                   100.3941     7.0640    71.0000   115.0000    44.0000 
+  2 3002      2497     2496.0  wm-lh-caudalanteriorcingulate    105.9804     9.3727    64.0000   124.0000    60.0000 
+  3 3003      6210     6101.0  wm-lh-caudalmiddlefrontal         95.2309    10.7353    65.0000   116.0000    51.0000 
+  4 3005      2941     2851.5  wm-lh-cuneus                      91.7803     9.2088    63.0000   114.0000    51.0000 
+  5 3006       940     1002.6  wm-lh-entorhinal                  83.0489     8.2677    51.0000   101.0000    50.0000 
+  6 3007      5031     4942.4  wm-lh-fusiform                    89.9330    10.2438    53.0000   113.0000    60.0000 
+  7 3008      7183     7237.8  wm-lh-inferiorparietal            96.9408     8.3539    63.0000   113.0000    50.0000 
+  8 3009      5123     5058.6  wm-lh-inferiortemporal            86.6660    12.3123    54.0000   113.0000    59.0000 
+  9 3010      3241     3235.7  wm-lh-isthmuscingulate           100.3965    11.1239    51.0000   119.0000    68.0000 
+ 10 3011      8922     9073.3  wm-lh-lateraloccipital            91.8626     8.7922    66.0000   116.0000    50.0000 
+ 11 3012      6762     6707.0  wm-lh-lateralorbitofrontal        96.5590    10.9221    67.0000   116.0000    49.0000 
+ 12 3013      5294     5263.1  wm-lh-lingual                     87.9843     9.7337    45.0000   113.0000    68.0000 
+ 13 3014      2939     2923.0  wm-lh-medialorbitofrontal         94.6788    11.0829    60.0000   114.0000    54.0000 
+ 14 3015      4585     4719.2  wm-lh-middletemporal              89.1812    11.6413    58.0000   114.0000    56.0000 
+ 15 3016      1336     1400.7  wm-lh-parahippocampal             85.6243     8.0718    62.0000   103.0000    41.0000 
+ 16 3017      3419     3415.0  wm-lh-paracentral                 98.0275     6.8901    72.0000   112.0000    40.0000 
+ 17 3018      4357     4319.0  wm-lh-parsopercularis             97.5235     9.5308    68.0000   115.0000    47.0000 
+ 18 3019       928      913.1  wm-lh-parsorbitalis               90.6595     9.9515    69.0000   113.0000    44.0000 
+ 19 3020      2943     2892.6  wm-lh-parstriangularis            98.8250     9.3639    73.0000   114.0000    41.0000 
+ 20 3021      3763     3566.9  wm-lh-pericalcarine               91.9724     9.4085    64.0000   110.0000    46.0000 
+ 21 3022      6840     6917.8  wm-lh-postcentral                 94.0089     9.5391    68.0000   117.0000    49.0000 
+ 22 3023      3982     3896.4  wm-lh-posteriorcingulate         102.9518     9.2925    54.0000   119.0000    65.0000 
+ 23 3024     10811    10829.9  wm-lh-precentral                  96.5319     8.9447    66.0000   115.0000    49.0000 
+ 24 3025      8467     8368.1  wm-lh-precuneus                   96.2406     8.5265    64.0000   114.0000    50.0000 
+ 25 3026      2562     2467.6  wm-lh-rostralanteriorcingulate   102.8610    14.0358    43.0000   128.0000    85.0000 
+ 26 3027     11889    11801.9  wm-lh-rostralmiddlefrontal        97.0424    10.7742    66.0000   117.0000    51.0000 
+ 27 3028     17252    17222.0  wm-lh-superiorfrontal             95.8226    10.3690    51.0000   121.0000    70.0000 
+ 28 3029     10363    10499.3  wm-lh-superiorparietal            96.2335     8.0421    71.0000   114.0000    43.0000 
+ 29 3030      8010     8217.1  wm-lh-superiortemporal            94.9949    10.4098    59.0000   115.0000    56.0000 
+ 30 3031      8284     8283.8  wm-lh-supramarginal               98.4463     9.6253    60.0000   119.0000    59.0000 
+ 31 3032       342      320.7  wm-lh-frontalpole                 88.3363     9.9492    68.0000   109.0000    41.0000 
+ 32 3033       588      623.6  wm-lh-temporalpole                76.7432     7.3511    60.0000    96.0000    36.0000 
+ 33 3034       757      742.7  wm-lh-transversetemporal          95.8058     7.9155    76.0000   113.0000    37.0000 
+ 34 3035      9766     9628.2  wm-lh-insula                      95.1956    11.2931    43.0000   122.0000    79.0000 
+ 35 4001      2445     2389.1  wm-rh-bankssts                    96.4998     7.8025    72.0000   112.0000    40.0000 
+ 36 4002      2489     2473.6  wm-rh-caudalanteriorcingulate    102.6601     9.7737    49.0000   119.0000    70.0000 
+ 37 4003      6194     6097.6  wm-rh-caudalmiddlefrontal         93.9083     9.6680    63.0000   112.0000    49.0000 
+ 38 4005      2527     2544.0  wm-rh-cuneus                      95.6783     9.0274    71.0000   122.0000    51.0000 
+ 39 4006      1084     1106.6  wm-rh-entorhinal                  83.9105     8.1502    41.0000   103.0000    62.0000 
+ 40 4007      5692     5543.6  wm-rh-fusiform                    89.9468     9.6756    37.0000   108.0000    71.0000 
+ 41 4008     10189    10300.8  wm-rh-inferiorparietal            96.7747     7.5763    72.0000   117.0000    45.0000 
+ 42 4009      5436     5561.5  wm-rh-inferiortemporal            89.1130    11.3720    57.0000   114.0000    57.0000 
+ 43 4010      2721     2703.0  wm-rh-isthmuscingulate            97.4807     9.9095    47.0000   116.0000    69.0000 
+ 44 4011      9255     9430.7  wm-rh-lateraloccipital            92.8958     7.9995    66.0000   120.0000    54.0000 
+ 45 4012      7341     7301.6  wm-rh-lateralorbitofrontal        94.5048    10.4873    53.0000   114.0000    61.0000 
+ 46 4013      5407     5355.0  wm-rh-lingual                     88.2301     9.0971    26.0000   107.0000    81.0000 
+ 47 4014      3921     3902.7  wm-rh-medialorbitofrontal         95.5708    12.2303    24.0000   119.0000    95.0000 
+ 48 4015      5990     6184.5  wm-rh-middletemporal              91.8122    11.2496    59.0000   114.0000    55.0000 
+ 49 4016      1277     1341.6  wm-rh-parahippocampal             86.0642     8.3585    47.0000   105.0000    58.0000 
+ 50 4017      4287     4243.1  wm-rh-paracentral                 98.9205     7.7911    69.0000   113.0000    44.0000 
+ 51 4018      3010     2968.2  wm-rh-parsopercularis             93.9405     9.8106    68.0000   111.0000    43.0000 
+ 52 4019      1184     1166.8  wm-rh-parsorbitalis               90.7188     9.8360    69.0000   112.0000    43.0000 
+ 53 4020      3526     3552.7  wm-rh-parstriangularis            97.3965     8.9891    73.0000   113.0000    40.0000 
+ 54 4021      3718     3477.9  wm-rh-pericalcarine               91.1200     8.9394    68.0000   114.0000    46.0000 
+ 55 4022      5874     5967.7  wm-rh-postcentral                 93.5180     8.5773    68.0000   117.0000    49.0000 
+ 56 4023      3579     3486.2  wm-rh-posteriorcingulate          99.5580    10.7496    40.0000   117.0000    77.0000 
+ 57 4024     11708    11826.8  wm-rh-precentral                  96.3673     8.6675    46.0000   114.0000    68.0000 
+ 58 4025      8142     8025.3  wm-rh-precuneus                   95.9274     8.3072    71.0000   114.0000    43.0000 
+ 59 4026      1898     1847.6  wm-rh-rostralanteriorcingulate   102.2492    12.0009    71.0000   122.0000    51.0000 
+ 60 4027     10724    10557.2  wm-rh-rostralmiddlefrontal        95.3535    10.6770    52.0000   115.0000    63.0000 
+ 61 4028     17010    16847.8  wm-rh-superiorfrontal             95.0225    10.4303    49.0000   115.0000    66.0000 
+ 62 4029     11061    11284.4  wm-rh-superiorparietal            98.3592     7.5904    69.0000   117.0000    48.0000 
+ 63 4030      6106     6266.0  wm-rh-superiortemporal            91.9094     9.3056    63.0000   113.0000    50.0000 
+ 64 4031      7906     7990.4  wm-rh-supramarginal               98.1174     8.2940    67.0000   117.0000    50.0000 
+ 65 4032       382      363.9  wm-rh-frontalpole                 90.2670     9.8959    70.0000   110.0000    40.0000 
+ 66 4033       675      709.8  wm-rh-temporalpole                81.0118     6.9583    64.0000    97.0000    33.0000 
+ 67 4034       614      594.8  wm-rh-transversetemporal          93.4870     7.0463    74.0000   107.0000    33.0000 
+ 68 4035      8583     8532.0  wm-rh-insula                      91.9468    10.6333    37.0000   118.0000    81.0000 
+ 69 5001     16987    16941.6  Left-UnsegmentedWhiteMatter      101.8558     9.3762    25.0000   123.0000    98.0000 
+ 70 5002     19239    19107.2  Right-UnsegmentedWhiteMatter      99.4593     9.6310    34.0000   121.0000    87.0000 

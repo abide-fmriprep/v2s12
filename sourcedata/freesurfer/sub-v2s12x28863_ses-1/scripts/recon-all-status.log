@@ -1,0 +1,92 @@
+status file for recon-all
+Tue Mar 10 22:30:01 CET 2026
+#@# MotionCor Tue Mar 10 22:30:03 CET 2026
+#@# Talairach Tue Mar 10 22:30:11 CET 2026
+#@# Talairach Failure Detection Tue Mar 10 22:34:34 CET 2026
+#@# Nu Intensity Correction Tue Mar 10 22:34:34 CET 2026
+#@# Intensity Normalization Tue Mar 10 22:37:49 CET 2026
+recon-all -s sub-v2s12x28863_ses-1 finished without error at Tue Mar 10 22:39:21 CET 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Tue Mar 10 22:46:43 CET 2026
+#@# EM Registration Tue Mar 10 22:46:43 CET 2026
+recon-all -s sub-v2s12x28863_ses-1 finished without error at Tue Mar 10 22:48:36 CET 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Tue Mar 10 22:48:40 CET 2026
+#@# CA Normalize Tue Mar 10 22:48:40 CET 2026
+#@# CA Reg Tue Mar 10 22:50:02 CET 2026
+#@# SubCort Seg Tue Mar 10 23:43:34 CET 2026
+#@# CC Seg Wed Mar 11 00:11:09 CET 2026
+#@# Merge ASeg Wed Mar 11 00:11:42 CET 2026
+#@# Intensity Normalization2 Wed Mar 11 00:11:42 CET 2026
+#@# Mask BFS Wed Mar 11 00:14:02 CET 2026
+#@# WM Segmentation Wed Mar 11 00:14:03 CET 2026
+#@# Fill Wed Mar 11 00:15:56 CET 2026
+recon-all -s sub-v2s12x28863_ses-1 finished without error at Wed Mar 11 00:16:57 CET 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Wed Mar 11 01:03:38 CET 2026
+#@# white curv lh Wed Mar 11 01:03:38 CET 2026
+#@# white area lh Wed Mar 11 01:03:38 CET 2026
+#@# pial curv lh Wed Mar 11 01:03:38 CET 2026
+#@# pial area lh Wed Mar 11 01:03:38 CET 2026
+#@# thickness lh Wed Mar 11 01:03:38 CET 2026
+#@# area and vertex vol lh Wed Mar 11 01:03:38 CET 2026
+#@# white curv rh Wed Mar 11 01:03:38 CET 2026
+#@# white area rh Wed Mar 11 01:03:38 CET 2026
+#@# pial curv rh Wed Mar 11 01:03:38 CET 2026
+#@# pial area rh Wed Mar 11 01:03:38 CET 2026
+#@# thickness rh Wed Mar 11 01:03:38 CET 2026
+#@# area and vertex vol rh Wed Mar 11 01:03:38 CET 2026
+#@# Cortical ribbon mask Wed Mar 11 01:03:38 CET 2026
+recon-all -s sub-v2s12x28863_ses-1 finished without error at Wed Mar 11 01:08:26 CET 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Wed Mar 11 01:15:16 CET 2026
+#@# white curv lh Wed Mar 11 01:15:16 CET 2026
+#@# white area lh Wed Mar 11 01:15:16 CET 2026
+#@# pial curv lh Wed Mar 11 01:15:16 CET 2026
+#@# pial area lh Wed Mar 11 01:15:16 CET 2026
+#@# thickness lh Wed Mar 11 01:15:16 CET 2026
+#@# area and vertex vol lh Wed Mar 11 01:15:16 CET 2026
+#@# white curv rh Wed Mar 11 01:15:16 CET 2026
+#@# white area rh Wed Mar 11 01:15:16 CET 2026
+#@# pial curv rh Wed Mar 11 01:15:16 CET 2026
+#@# pial area rh Wed Mar 11 01:15:16 CET 2026
+#@# thickness rh Wed Mar 11 01:15:16 CET 2026
+#@# area and vertex vol rh Wed Mar 11 01:15:16 CET 2026
+#@# Curvature Stats lh Wed Mar 11 01:15:16 CET 2026
+#@# Curvature Stats rh Wed Mar 11 01:15:18 CET 2026
+#@# Relabel Hypointensities Wed Mar 11 01:15:21 CET 2026
+#@# APas-to-ASeg Wed Mar 11 01:15:36 CET 2026
+#@# AParc-to-ASeg aparc Wed Mar 11 01:15:45 CET 2026
+#@# AParc-to-ASeg aparc.a2009s Wed Mar 11 01:16:23 CET 2026
+#@# AParc-to-ASeg aparc.DKTatlas Wed Mar 11 01:17:01 CET 2026
+#@# WMParc Wed Mar 11 01:17:43 CET 2026
+#@# ASeg Stats Wed Mar 11 01:22:09 CET 2026
+recon-all -s sub-v2s12x28863_ses-1 finished without error at Wed Mar 11 01:22:51 CET 2026
